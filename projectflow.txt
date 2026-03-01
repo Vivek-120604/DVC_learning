@@ -8,4 +8,7 @@ now do "dvc remote add -d mymac S3" you are telling dvc where to store data vers
 now "dvc add data/" tells dvc to track any kind of change that we will make in the exisiting data/ folder.you will get a error becouase got is already tracking your dataset, so you will need to remove that or stop that tracking
 then again run dvc add data/ it creates data.dvc then "git add .gitignore data.dvc"
 now - "dvc commit" and then "dvc push"
-
+add git add-commit-push to mark is stage as first version of data
+do some changes to data
+type "dvc status"
+dvc commit and dvc push
