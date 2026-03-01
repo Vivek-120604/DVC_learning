@@ -1,3 +1,8 @@
 create a git repo and clone it
 create a mycode.py file and add code to it
 do a git-add-push-commit
+#pip install dvc
+Now we do "dvc init"(create .dvcignore, .dvc)
+now do "mkdir S3" in the terminal to save diff version of data
+now do "dvc remote add -d mymac S3" you are telling dvc where to store data versions
+now "dvc add data/" tells dvc to track any kind of change that we will make in the exisiting data/ folder

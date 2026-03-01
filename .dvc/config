@@ -1,0 +1,4 @@
+[core]
+    remote = mymac
+['remote "mymac"']
+    url = ../S3
