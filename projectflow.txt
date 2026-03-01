@@ -1,0 +1,3 @@
+create a git repo and clone it
+create a mycode.py file and add code to it
+do a git-add-push-commit
